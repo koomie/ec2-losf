@@ -12,6 +12,7 @@
 [ConfigFiles]
 
 /etc/motd = yes
+/etc/tran00/README.instructore = yes
 /etc/motd.d/cockpit = delete
 
 
