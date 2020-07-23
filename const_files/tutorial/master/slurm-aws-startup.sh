@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# @losf_synced_file_notice@
+
 export SLURM_HEADNODE_IPADDR=$(curl -sS http://169.254.169.254/latest/meta-data/local-ipv4)
 export SLURM_HEADNODE_AWS_REGION=$(curl -sS http://169.254.169.254/latest/dynamic/instance-identity/document | jq -r '.region')
 export COMPUTE_SG=sg-0c2f6816e732a7826
