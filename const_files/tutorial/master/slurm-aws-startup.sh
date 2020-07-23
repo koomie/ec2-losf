@@ -56,3 +56,4 @@ do
   start_node $hostname $private_ip
   scontrol update nodename=$hostname nodehostname=$hostname nodeaddr=$private_ip
   rm $NODE_JSON
+done
