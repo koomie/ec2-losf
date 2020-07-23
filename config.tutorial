@@ -11,12 +11,19 @@
 
 [ConfigFiles]
 
-/etc/motd = yes
-/home/train00/README.instructor = yes
-/etc/motd.d/cockpit   = delete
-/etc/slurm/slurm.conf = yes
-/etc/slurm/slurm-aws-startup.sh = yes
+/etc/motd                            = yes
+/home/train00/README.instructor      = yes
+/etc/motd.d/cockpit                  = delete
+/etc/slurm/slurm.conf                = yes
+/etc/slurm/slurm-aws-startup.sh      = yes
+/etc/slurm/slurm-compute-userdata.sh = yes
 
+[ConfigFiles/login]
+
+/etc/shadow = yes
+/etc/ssh/sshd_config = yes
+/etc/pam.d/sshd = yes
+/etc/security/access.conf = yes
 
 
 #---------------------------------------------------------------------
