@@ -13,8 +13,8 @@
 
 /etc/motd = yes
 /home/train00/README.instructor = yes
-/etc/motd.d/cockpit = delete
-
+/etc/motd.d/cockpit   = delete
+/etc/slurm/slurm.conf = yes
 
 
 #---------------------------------------------------------------------
