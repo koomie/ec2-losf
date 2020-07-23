@@ -15,6 +15,8 @@
 /home/train00/README.instructor = yes
 /etc/motd.d/cockpit   = delete
 /etc/slurm/slurm.conf = yes
+/etc/slurm/slurm-aws-startup.sh = yes
+
 
 
 #---------------------------------------------------------------------
