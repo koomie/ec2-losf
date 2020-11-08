@@ -11,7 +11,7 @@ Welcome to the OpenHPC tutorial infrastructure
 --> OHPC: v2.x
 --> OS:   CentOS8
 --> arch: x86_64 (EC2)
---> RMS:  Slurm v20.02.1 (configless, dynamic computes)
+--> RMS:  Slurm v20.02.5 (configless, dynamic computes)
 --------------------------------------------------------
 Head node
 --------------------------------------------------------
