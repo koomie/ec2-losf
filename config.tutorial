@@ -14,9 +14,10 @@
 /etc/motd                            = yes
 /home/train00/README.instructor      = yes
 /etc/motd.d/cockpit                  = delete
-/etc/slurm/slurm.conf                = yes
-/etc/slurm/slurm-aws-startup.sh      = yes
-/etc/slurm/slurm-compute-userdata.sh = yes
+/root/.bashrc                        = yes
+#/etc/slurm/slurm.conf                = yes
+#/etc/slurm/slurm-aws-startup.sh      = yes
+#/etc/slurm/slurm-compute-userdata.sh = yes
 
 [ConfigFiles/login]
 
@@ -40,6 +41,9 @@
 #---------------------------------------------------------------------
 
 [PartialConfigFiles]
+/root/.ssh/authorized_keys = yes
+
+
 
 #---------------------------------------------------------------------
 # Variable Substitution
